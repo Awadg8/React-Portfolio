@@ -1,0 +1,21 @@
+#testimonials .testimonial {
+    text-align: center;
+    padding: 60px 40px;
+    border-radius: var(--border-radius-3);
+    clip-path: var(--polygon);
+}
+
+#testimonials .avatar {
+    width: 10rem;
+    height: 10rem;
+    overflow: hidden;
+    border-radius: var(--border-radius-3);
+    margin: 0 auto 1rem;
+    margin-top: 20px;
+    box-shadow: 5px 10px 20px rgba(1, 1, 1, 0.329);
+}
+
+#testimonials .review {
+    font-weight: 400;
+    font-size: 15px;
+}

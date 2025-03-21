@@ -1,0 +1,19 @@
+#projects .projects__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+/* Responsiveness */
+
+@media(max-width:900px) {
+    #projects .projects__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width:650px) {
+    #projects .projects__container {
+        grid-template-columns: 100%;
+    }
+}
