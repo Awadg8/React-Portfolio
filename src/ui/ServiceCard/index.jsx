@@ -8,7 +8,7 @@ const ServiceCard = ({ title, description, icon, color, colorRGB }) => {
       style={{ '--color-primary': color, '--color-primary-rgb': colorRGB }}
     >
       <div className='service__card-top'>
-        <div className='blur__overlay ball  ball1'></div>
+        <div className='blur__overlay ball ball1'></div>
         <div className='blur__overlay ball ball2'></div>
         <div className='blur__overlay ball ball3'></div>
         <div className='blur__overlay ball ball4'></div>
@@ -22,7 +22,7 @@ const ServiceCard = ({ title, description, icon, color, colorRGB }) => {
         <p className='text__muted description'>{description}</p>
       </div>
 
-      <div className='service_card-bottom'>
+      <div className='service__card-bottom'>
         <SocialHandles />
       </div>
     </div>

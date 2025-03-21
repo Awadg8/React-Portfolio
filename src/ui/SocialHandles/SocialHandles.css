@@ -18,7 +18,7 @@
     position: absolute;
     top: 0;
     font-size: 14px;
-    background: linear-gradient(260deg, var(--color-dark) 0%, var(--color-dark) 100%);
+    background: linear-gradient(260deg, var(--color-dark) 0%, var(--color-primary) 100%);
     color: var(--color-text);
     padding: 5px 8px;
     border-radius: 5px;
@@ -33,7 +33,7 @@
     position: absolute;
     height: 8px;
     width: 8px;
-    background: linear-gradient(260deg, var(--color-dark) 0%, var(--color-dark) 100%);
+    background: linear-gradient(260deg, var(--color-dark) 0%, var(--color-primary) 100%);
     bottom: -3px;
     left: 50%;
     transform: translate(-50%) rotate(45deg);
