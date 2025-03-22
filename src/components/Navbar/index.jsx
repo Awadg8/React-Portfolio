@@ -11,7 +11,7 @@ const Navbar = () => {
   console.log('show Sidebar:', showSidebar)
 
   return (
-    <nav className=' card flex__center navbar'>
+    <nav className=' card blur__overlay flex__center navbar'>
       {showSidebar && (
         <div
           className='aside__overlay'

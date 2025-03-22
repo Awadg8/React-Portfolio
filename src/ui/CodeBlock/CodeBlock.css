@@ -40,6 +40,6 @@
     background: var(--color-danger);
 }
 
-.code__block .dot:nth-child(1) {
+.code__block .dot:nth-child(2) {
     background: var(--color-warning);
 }

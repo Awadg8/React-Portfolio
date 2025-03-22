@@ -28,7 +28,7 @@
     }
 
     #skill .skill__container .skill__card{
-        width: 100px;
+        width: 100%;
         padding: 2rem 1rem;
     }
 }

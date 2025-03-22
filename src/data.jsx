@@ -290,8 +290,8 @@ export const contactInfo = [
   },
   {
     name: 'WhatsApp',
-    value: '+2348149121918',
-    link: 'https://api.whatsapp.com/send?phone=+2348149121918',
+    value: '+91 9173686466',
+    link: 'https://api.whatsapp.com/send?phone=+91 9173686466',
     icon: whatsappicon,
     btnIcon: <BsWhatsapp />,
     color: 'rgb(38,234,112)'

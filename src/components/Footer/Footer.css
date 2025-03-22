@@ -45,19 +45,19 @@ footer .copyright h3 {
 
 /* Responsiveness */
 
-@media (max-width:1200) {
+@media (max-width:1200px) {
     footer .base__logo .full__name {
         font-size: 70px;
     }
 }
 
-@media (max-width:800) {
+@media (max-width:800px) {
     footer .base__logo .full__name {
         font-size: 50px;
     }
 }
 
-@media (max-width:768) {
+@media (max-width:768px) {
     footer .nav {
         flex-direction: column;
     }
