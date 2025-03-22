@@ -1,11 +1,11 @@
-#testimonials .testimonial {
+#testimonial .testimonial {
     text-align: center;
     padding: 60px 40px;
     border-radius: var(--border-radius-3);
     clip-path: var(--polygon);
 }
 
-#testimonials .avatar {
+#testimonial .avatar {
     width: 10rem;
     height: 10rem;
     overflow: hidden;
@@ -15,7 +15,7 @@
     box-shadow: 5px 10px 20px rgba(1, 1, 1, 0.329);
 }
 
-#testimonials .review {
+#testimonial .review {
     font-weight: 400;
     font-size: 15px;
 }

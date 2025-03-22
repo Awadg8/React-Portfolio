@@ -20,7 +20,7 @@ const Navbar = () => {
       )}
 
       <div
-        className='flex__center flex'
+        className='flex__center logo'
         onClick={() => scroll.scrollToTop({ duration: 500 })}
       >
         <Logo />
@@ -41,6 +41,7 @@ const Navbar = () => {
             <Link
               to={list.name.toLowerCase()}
               spy={true}
+              smooth={true}
               offset={-70}
               duration={500}
               className='tab'
@@ -55,7 +56,7 @@ const Navbar = () => {
 
       <div className='flex__center buttons__wrapper'>
         <Link to='contact' className='btn flex__center hire__btn'>
-          Hire me
+          Hire Me
           <div className='flex__center icon'>
             <FaArrowUpRightFromSquare />
           </div>

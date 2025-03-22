@@ -6,7 +6,7 @@ import { Autoplay } from 'swiper/modules'
 
 const Testimonials = () => {
   return (
-    <section id='testimonials'>
+    <section id='testimonial'>
       <div className='section__wrapper'>
         <div className='section__header'>
           <h2 className='shine'>Testimonials</h2>
